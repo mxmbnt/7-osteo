@@ -1,0 +1,63 @@
+
+# i-09da88a1 [site] wf:click togglePlayReverse @ wf:class ["faq-item"]
+   - wf:class ["faq-content-wrap"] (within) :: {"duration": 0.6} {"wf:transform": {"height": ["0px", "auto"]}}
+   - wf:class ["faq-icon"] (within) :: {"duration": 0.6, "position": 0} {"wf:transform": {"rotation": ["0deg", "180deg"]}}
+   - wf:trigger-only "" :: {"duration": 0.6, "position": 0} {"wf:style": {"backgroundColor": ["hsla(0, 0.00%, 0.00%, 0.00)", "hsla(0, 0.00%, 100.00%, 1.00)"]}}
+
+# i-0ce0ed6f [site] wf:load play
+   - wf:class ["hero-effect"] :: {"duration": 0.8, "ease": 0} {"wf:transform": {"opacity": ["0%", "100%"]}}
+
+# i-163883f2 [site] wf:scroll start=top bottom end=60 top scrub=0.8 @ wf:class ["section-title-center"]
+   - wf:trigger-only "" :: {"position": 0, "stagger": {"each": 0.25}, "ease": 1} {"wf:transform": {"opacity": ["40%", "100%"]}} split={"type": "chars"}
+
+# i-224e4333 [site] wf:hover play @ wf:class ["nav-dropdown-toggle"] ; wf:hover reverse @ wf:class ["nav-dropdown-toggle"]
+   - wf:class ["nav-dropdown-icon"] :: {"duration": 0.3, "ease": 0} {"wf:transform": {"rotation": ["0deg", "-180deg"]}}
+
+# i-4139506f [component] wf:hover @ wf:class ["hero-button"] ; wf:hover reverse @ wf:class ["hero-button"]
+   - wf:class ["button-title"] :: {"duration": 0.4, "position": 0, "stagger": {"amount": 0.4}, "ease": 12} {"wf:transform": {"y": ["100%", "-100%"]}} split={"type": "chars"}
+
+# i-5989a89b [component] wf:scroll start=top bottom end=bottom top scrub=None @ wf:class ["footer-top-content"]
+   - wf:trigger-only "" :: {"duration": 0.8, "ease": 0} {"wf:transform": {"opacity": ["0%", "100%"]}}
+
+# i-797b239a [component] wf:hover @ wf:class ["menu-button-02"] ; wf:hover reverse @ wf:class ["menu-button-02"]
+   - wf:class ["hero-button-icon"] :: null {"wf:transform": {"x": ["0px", "16px"]}}
+
+# i-7e416644 [site] wf:hover @ wf:class ["blog-card-v3"] ; wf:hover reverse @ wf:class ["blog-card-v3"]
+   - wf:class ["blog-image-v4"] (within) :: {"duration": 0.3, "position": 0.3} {"wf:transform": {"scale": [1, 1.1]}}
+
+# i-8167c60e [site] wf:hover @ wf:class ["blog-card"] ; wf:hover reverse @ wf:class ["blog-card"]
+   - wf:class ["blog-image"] (within) :: {"duration": 0.3} {"wf:transform": {"scale": [1, 1.1]}}
+
+# i-853bde79 [site] wf:scroll start=top bottom end=bottom top scrub=None @ wf:class ["section-effect"]
+   - wf:trigger-only "" :: {"duration": 0.8, "ease": 0} {"wf:transform": {"opacity": ["0%", "100%"]}}
+
+# i-a6419785 [site] wf:hover @ wf:class ["service-button"] ; wf:hover reverse @ wf:class ["service-button"]
+   - wf:class ["service-button-icon-02"] (within) :: null {"wf:transform": {"x": ["0px", "16px"]}}
+
+# i-d185b230 [component] wf:scroll start=top bottom end=bottom top scrub=None @ wf:class ["cta-card-wrapper"]
+   - wf:trigger-only "" :: {"duration": 0.8, "ease": 0} {"wf:transform": {"opacity": ["0%", "100%"]}}
+
+# i-d3fb6367 [component] wf:hover @ wf:class ["link-block"] ; wf:hover reverse @ wf:class ["link-block"]
+   - wf:class ["login-button"] :: {"duration": 0.3, "stagger": {"amount": 0.3}} {"wf:transform": {"yPercent": ["100%", "-100%"]}} split={"type": "chars"}
+
+# i-dfc5c8de [site] wf:hover @ wf:class ["blog-card-v2"] ; wf:hover reverse @ wf:class ["blog-card-v2"]
+   - wf:class ["blog-image-v2"] (within) :: {"duration": 0.3} {"wf:transform": {"scale": [1, 1.1]}}
+
+# i-eb095343 [component] wf:scroll start=top bottom end=bottom top scrub=None @ wf:class ["footer-bottom-content-wrapper"]
+   - wf:trigger-only "" :: {"duration": 0.8, "ease": 0} {"wf:transform": {"opacity": ["0%", "100%"]}}
+
+# i-f252fd0d [component] wf:click togglePlayReverse @ wf:class ["menu-button"]
+   - wf:class ["menu-icon"] :: {"duration": 0.3} {"wf:transform": {"opacity": ["100%", "0%"]}}
+   - wf:class ["x-icon"] :: {"duration": 0.3, "position": 0.3} {"wf:transform": {"opacity": ["0%", "100%"]}}
+
+# i-f60becf6 [site] wf:hover @ wf:class ["service-card"] ; wf:hover reverse @ wf:class ["service-card"]
+   - wf:class ["service-card-image"] (within) :: {"duration": 0.4} {"wf:transform": {"scale": [1, 1.1]}}
+
+# i-f6ec2157 [component] wf:scroll start=top bottom end=bottom top scrub=0.8 @ wf:class ["cta-card-image-wrapper"]
+   - wf:trigger-only "" :: {"ease": 0} {"wf:transform": {"y": ["-18px", "0px"]}}
+
+# i-fb479bc4 [site] wf:hover @ wf:class ["service-card-v2"] ; wf:hover reverse @ wf:class ["service-card-v2"]
+   - wf:class ["service-card-image-v2"] (within) :: {} {"wf:transform": {"scale": [1, 1.1]}}
+
+# i-2860426d [pages:6a4deef69219cb9fbc84e1ab] wf:hover @ wf:class ["blog-card-content-wrap"] ; wf:hover reverse @ wf:class ["blog-card-content-wrap"]
+   - wf:class ["blog-card-image"] (within) :: null {"wf:transform": {"scale": [1, 1.1]}}

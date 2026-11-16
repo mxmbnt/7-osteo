@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "C:\Users\mbonnet\AppData\Local\Temp\claude\0edc15ca106cf81c\e45e49f8-1bfa-40b5-b2d0-9156d9ecbcf1\scratchpad\ix3.py", line 7, in <module>
+    i = s.index('t.register([')
+        ^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: substring not found
